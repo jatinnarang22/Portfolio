@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(43, 44, 47);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.full{
+    height:100vh;
+    width: 100vw;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+
+.container{
+    /* background-color: red; */
+   
+    margin: auto auto;
+    /* height: 60vh; */
+    /* width: 85%; */
+    display: grid;
+  
+    /* grid-template-columns:  repeat(6, minmax(120px, 1fr));          */
+    /* grid-template-rows: repeat(2, minmax(120px, 1fr));
+     */ 
+    row-gap: 18px;
+    column-gap: 18px;
+    /* place-items: center; */
+}
+
+
+
+.item{
+    /* background-color:  #434242; */
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #6b7580;
+    border-right-color: #2a2e29;
+    border-bottom-color: #2a2e29;
+    border-left-color: #6b7580;
+    color:white;
+    box-shadow:4px 4px 4px 1px black;
+}
+
+.initem{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.initem >div{
+    text-align: center;
+    line-height: 40px;
+    font-size: 17px;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.item2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item3{
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.initem4{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+
+.initem4 > div{
+    /* background-color: yellow; */
+    /* background-color:  #434242; */
+    width: 100%;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #6b7580;
+    border-right-color: #2a2e29;
+    border-bottom-color: #2a2e29;
+    border-left-color: #6b7580;
+    padding-left: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.item5{
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.item:hover{
+    border-bottom-color: #6b7580;
+    border-left-color: #2a2e29;
+    border-top-color: #2a2e29;
+    border-right-color: #6b7580;
+}
+
+
+input{
+    color:white;
+    overflow: hidden;
+    outline: none;
+    font-size: 20px;
+    margin:10px;
+    background-color:transparent;
+    border:none;
+}

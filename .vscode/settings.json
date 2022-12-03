@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.port": 5501,
+    "git.decorations.enabled": true,
+    "git.ignoreLegacyWarning": false,
+    "git.ignoreSubmodules": false,
+    "git.autofetch": false,
+    "git.ignoredRepositories": [
+        "C:\\Users\\njati\\Desktop"
+    ]
+}
